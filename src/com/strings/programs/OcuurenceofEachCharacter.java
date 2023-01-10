@@ -26,8 +26,8 @@ public class OcuurenceofEachCharacter {
 	    	}
 	    	
 	    }
-	    
-	   System.out.println(map);
+	 
+	    map.forEach((Character,Integer)-> System.out.print(Character +"" +Integer));
 	    
 	}
 }
